@@ -1,0 +1,118 @@
+table Employees
+	lineageTag: a31f8e6d-c311-4145-b8df-a10af422335c
+
+	measure Headcount = COUNTROWS(Employees)
+		formatString: #,0
+		lineageTag: f9019ce1-4cb3-4503-9794-e11fa837e891
+
+	measure 'Active Headcount' = CALCULATE(COUNTROWS(Employees), ISBLANK(Employees[termination_date]))
+		formatString: #,0
+		lineageTag: d2a35dc6-ea3e-4b29-a9f8-8066eb035d36
+
+	measure 'Attrition Rate' = DIVIDE(COUNTROWS(Employees) - [Active Headcount], COUNTROWS(Employees))
+		formatString: 0.0%
+		lineageTag: 3b4bb9cb-d93c-4631-a3c0-314da3ccd637
+
+	measure 'Average Salary' = AVERAGE(Employees[base_salary])
+		formatString: \$#,0.00
+		lineageTag: 6a57238a-d75a-4248-8c1b-c8b112097684
+
+	column employee_id
+		dataType: string
+		lineageTag: 2b6ce820-59a2-43f8-a535-97c1830496fd
+		summarizeBy: none
+		sourceColumn: employee_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 24929644-063c-4874-8402-88a47bae5d9d
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column department
+		dataType: string
+		lineageTag: bd45a002-591f-4de4-b883-18840206de34
+		summarizeBy: none
+		sourceColumn: department
+
+		annotation SummarizationSetBy = Automatic
+
+	column job_title
+		dataType: string
+		lineageTag: d09e305a-ee7f-43f1-881e-72674117d414
+		summarizeBy: none
+		sourceColumn: job_title
+
+		annotation SummarizationSetBy = Automatic
+
+	column location
+		dataType: string
+		lineageTag: 18ae4e7f-919a-42b7-a8d2-2686cfc10118
+		summarizeBy: none
+		sourceColumn: location
+
+		annotation SummarizationSetBy = Automatic
+
+	column hire_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 519916d4-cb95-478a-9866-eba0298f409c
+		summarizeBy: none
+		sourceColumn: hire_date
+
+		variation Variation
+			isDefault
+			relationship: 51f4078c-d89b-4368-8abb-ca5596c08d62
+			defaultHierarchy: LocalDateTable_ac564d70-2f9b-44a1-b613-448750ede67d.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column termination_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 76c8cd4f-4660-4121-9700-8ae8448e4c83
+		summarizeBy: none
+		sourceColumn: termination_date
+
+		variation Variation
+			isDefault
+			relationship: 3251f53e-b359-446c-b247-d6af777a5aab
+			defaultHierarchy: LocalDateTable_a4b72770-86ce-47e0-aec7-acc267f774d7.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column salary_band
+		dataType: string
+		lineageTag: f819da4a-2165-48e2-baec-d13fff43c0b6
+		summarizeBy: none
+		sourceColumn: salary_band
+
+		annotation SummarizationSetBy = Automatic
+
+	column base_salary
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: bb58d654-2c44-4f3f-beb0-9954cbff5c04
+		summarizeBy: sum
+		sourceColumn: base_salary
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Employees = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\vivek\Desktop\java\claude\da\data-analyst\payroll-analytics-dashboard\data\employees.csv"),[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    ChangedType = Table.TransformColumnTypes(PromotedHeaders,{{"employee_id", type text},{"name", type text},{"department", type text},{"job_title", type text},{"location", type text},{"hire_date", type date},{"termination_date", type date},{"salary_band", type text},{"base_salary", type number}})
+				in
+				    ChangedType
+

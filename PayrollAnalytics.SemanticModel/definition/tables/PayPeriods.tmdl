@@ -1,0 +1,77 @@
+table PayPeriods
+	lineageTag: 0b371fc8-b7b0-4a6e-a1f7-cd5bc057453c
+
+	measure 'Total OT Cost' = SUM(PayPeriods[overtime_pay])
+		formatString: \$#,0.00
+		lineageTag: a8372e30-86ca-414c-9f54-fb60b5657b0e
+
+	measure 'Total Gross Pay' = SUM(PayPeriods[gross_pay])
+		formatString: \$#,0.00
+		lineageTag: 5b116448-31d9-4491-9078-19e32cb31b1b
+
+	measure 'OT Cost %' = DIVIDE([Total OT Cost], [Total Gross Pay])
+		formatString: 0.0%
+		lineageTag: 8cef21d7-fbc9-4775-8b49-19d39f4bd275
+
+	measure 'YoY Gross Pay Growth' =
+			VAR CurrentYear = CALCULATE([Total Gross Pay], FILTER(ALL(PayPeriods), LEFT(PayPeriods[pay_period],4) = "2024"))
+			VAR PriorYear = CALCULATE([Total Gross Pay], FILTER(ALL(PayPeriods), LEFT(PayPeriods[pay_period],4) = "2023"))
+			RETURN DIVIDE(CurrentYear - PriorYear, PriorYear)
+		formatString: 0.0%
+		lineageTag: cc9f773e-4535-4ac2-bc3b-c3a1d8e2b11a
+
+	column employee_id
+		dataType: string
+		lineageTag: 197819bf-b530-42a7-83c1-bec57a132c99
+		sourceColumn: employee_id
+
+	column pay_period
+		dataType: string
+		lineageTag: 2e57ba7b-bd72-4a9a-899f-720a83ea6c95
+		sourceColumn: pay_period
+
+	column gross_pay
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: efa940e4-5d45-4293-87a3-69d03fc3262c
+		sourceColumn: gross_pay
+
+	column overtime_hours
+		dataType: double
+		lineageTag: 1bd6143d-0b9b-4d42-8ba7-c2f100f7118d
+		sourceColumn: overtime_hours
+
+	column overtime_pay
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: cb1d55d1-2d28-499a-9915-3d1ae8e09387
+		sourceColumn: overtime_pay
+
+	column deductions
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: 6438b343-259c-47f6-b09f-a7d47f5f7b60
+		sourceColumn: deductions
+
+	column bonus
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: 14f35ea7-e842-4904-9d37-d7909589e067
+		sourceColumn: bonus
+
+	column net_pay
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: ac70704d-d11e-4a27-976a-f03403f4bcb4
+		sourceColumn: net_pay
+
+	partition PayPeriods = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\vivek\Desktop\java\claude\da\data-analyst\payroll-analytics-dashboard\data\pay_periods.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    ChangedType = Table.TransformColumnTypes(PromotedHeaders,{{"employee_id", type text},{"pay_period", type text},{"gross_pay", type number},{"overtime_hours", type number},{"overtime_pay", type number},{"deductions", type number},{"bonus", type number},{"net_pay", type number}})
+				in
+				    ChangedType
+

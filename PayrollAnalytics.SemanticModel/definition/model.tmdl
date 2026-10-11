@@ -1,0 +1,20 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Employees","PayPeriods"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Employees
+ref table PayPeriods
+ref table DateTableTemplate_c4344b19-8166-4d2a-b940-4b7e7065faa1
+ref table LocalDateTable_ac564d70-2f9b-44a1-b613-448750ede67d
+ref table LocalDateTable_a4b72770-86ce-47e0-aec7-acc267f774d7
+

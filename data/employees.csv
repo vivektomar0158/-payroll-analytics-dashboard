@@ -1,0 +1,401 @@
+employee_id,name,department,job_title,location,hire_date,termination_date,salary_band,base_salary
+E0001,Noah Brown,Support,Support Engineer,Denver,2022-07-18,,Support Engineer (55k-85k),55750.32
+E0002,Olivia Thomas,Support,Support Engineer,Chicago,2021-03-07,2022-08-26,Support Engineer (55k-85k),72714.78
+E0003,Aiden Rodriguez,Engineering,Senior Engineer,New York,2024-01-22,,Senior Engineer (115k-155k),143640.78
+E0004,Ethan Hernandez,Marketing,Marketing Analyst,New York,2022-11-28,,Marketing Analyst (55k-85k),75944.18
+E0005,Maria Anderson,Engineering,QA Engineer,Chicago,2022-12-06,,QA Engineer (65k-95k),67901.49
+E0006,Chloe Lopez,Engineering,QA Engineer,Chicago,2022-08-24,,QA Engineer (65k-95k),67364.01
+E0007,Ava Williams,Sales,SDR,Austin,2024-09-16,,SDR (50k-70k),51391.1
+E0008,Mia Garcia,Marketing,Marketing Analyst,Remote,2023-07-18,,Marketing Analyst (55k-85k),66403.79
+E0009,Chloe Garcia,Finance,Financial Analyst,Chicago,2024-10-31,,Financial Analyst (65k-95k),85105.26
+E0010,Lily Davis,Support,Support Engineer,Denver,2023-02-17,,Support Engineer (55k-85k),59902.07
+E0011,Logan Rodriguez,Finance,Financial Analyst,New York,2021-03-07,,Financial Analyst (65k-95k),71871.44
+E0012,Grace Gonzalez,Sales,SDR,Denver,2022-10-07,,SDR (50k-70k),67527.35
+E0013,Lily Rodriguez,HR,HR Generalist,Denver,2022-05-21,,HR Generalist (55k-80k),61622.0
+E0014,Noah Thomas,Operations,Operations Manager,San Francisco,2023-03-29,,Operations Manager (90k-125k),121423.8
+E0015,Zoe Williams,Engineering,Software Engineer,San Francisco,2021-11-10,,Software Engineer (75k-115k),109444.12
+E0016,Lily Smith,HR,HR Manager,Denver,2023-12-20,,HR Manager (90k-120k),119883.64
+E0017,Mason Brown,Support,Support Engineer,Remote,2024-01-05,,Support Engineer (55k-85k),75451.31
+E0018,Emma Thomas,HR,HR Generalist,New York,2022-06-24,,HR Generalist (55k-80k),66343.09
+E0019,Noah Lopez,Marketing,Marketing Manager,Austin,2023-11-06,,Marketing Manager (90k-125k),119458.43
+E0020,Ava Davis,Operations,Operations Analyst,New York,2023-09-28,,Operations Analyst (55k-85k),72968.34
+E0021,Liam Moore,Sales,SDR,Austin,2021-06-25,,SDR (50k-70k),68938.99
+E0022,Carter Wilson,Sales,SDR,Austin,2024-01-31,,SDR (50k-70k),59505.65
+E0023,Mia Anderson,Operations,Operations Analyst,Chicago,2023-03-29,,Operations Analyst (55k-85k),76388.47
+E0024,Wyatt Moore,HR,HR Generalist,Austin,2021-05-12,,HR Generalist (55k-80k),61197.64
+E0025,Maria Hernandez,Operations,Operations Analyst,New York,2024-07-16,,Operations Analyst (55k-85k),55215.73
+E0026,Noah Taylor,Operations,Operations Analyst,Austin,2023-09-22,,Operations Analyst (55k-85k),63354.32
+E0027,Mia Wilson,Marketing,Marketing Manager,San Francisco,2022-01-25,2024-09-23,Marketing Manager (90k-125k),118262.39
+E0028,Sofia Johnson,HR,HR Manager,San Francisco,2024-08-31,,HR Manager (90k-120k),91625.14
+E0029,Ethan Moore,Support,Support Lead,San Francisco,2021-08-12,,Support Lead (80k-110k),104017.78
+E0030,Liam Anderson,Sales,Sales Manager,Chicago,2023-08-06,,Sales Manager (90k-140k),99174.4
+E0031,Liam Davis,Engineering,Software Engineer,Austin,2024-01-13,,Software Engineer (75k-115k),101085.8
+E0032,Emma Gonzalez,HR,Recruiter,New York,2023-04-02,,Recruiter (55k-85k),69440.75
+E0033,Lily Taylor,HR,Recruiter,Austin,2023-07-21,,Recruiter (55k-85k),82795.54
+E0034,Lily Johnson,Sales,Sales Manager,Denver,2021-04-30,,Sales Manager (90k-140k),100885.04
+E0035,Carter Garcia,Finance,Financial Analyst,New York,2023-09-04,,Financial Analyst (65k-95k),66504.27
+E0036,Olivia Gonzalez,Operations,Operations Analyst,New York,2021-05-21,,Operations Analyst (55k-85k),80540.28
+E0037,Zoe Thomas,Operations,Operations Analyst,Remote,2021-03-23,,Operations Analyst (55k-85k),72367.57
+E0038,Logan Jones,Finance,Financial Analyst,Denver,2022-10-06,,Financial Analyst (65k-95k),85091.78
+E0039,Liam Moore,Support,Support Lead,Austin,2021-05-29,2022-03-19,Support Lead (80k-110k),93716.74
+E0040,Olivia Lopez,Operations,Operations Manager,Remote,2022-12-16,,Operations Manager (90k-125k),94635.98
+E0041,Carter Smith,Sales,Sales Manager,Denver,2022-09-12,,Sales Manager (90k-140k),131687.25
+E0042,Noah Rodriguez,Marketing,Marketing Manager,New York,2021-08-01,,Marketing Manager (90k-125k),122611.46
+E0043,Mason Miller,Engineering,Senior Engineer,Denver,2024-05-23,,Senior Engineer (115k-155k),125893.93
+E0044,Maria Williams,Support,Support Lead,Denver,2022-05-30,,Support Lead (80k-110k),95162.27
+E0045,Lucas Garcia,HR,Recruiter,Denver,2022-11-15,,Recruiter (55k-85k),56322.6
+E0046,Noah Moore,HR,HR Manager,New York,2024-02-23,2024-10-24,HR Manager (90k-120k),111170.02
+E0047,Maria Martinez,Marketing,Marketing Manager,Remote,2021-10-31,,Marketing Manager (90k-125k),110387.83
+E0048,Sofia Lopez,Marketing,Marketing Analyst,Chicago,2022-03-07,,Marketing Analyst (55k-85k),81967.74
+E0049,Olivia Garcia,Marketing,Marketing Manager,Austin,2021-11-13,,Marketing Manager (90k-125k),124084.3
+E0050,Zoe Davis,HR,HR Generalist,Remote,2022-11-12,,HR Generalist (55k-80k),59484.02
+E0051,Olivia Miller,Sales,SDR,San Francisco,2021-03-21,,SDR (50k-70k),52161.91
+E0052,Ethan Gonzalez,Finance,Accountant,Remote,2022-04-12,,Accountant (55k-80k),75513.41
+E0053,Carter Gonzalez,Finance,Financial Analyst,Denver,2022-07-26,,Financial Analyst (65k-95k),94006.67
+E0054,Lucas Garcia,Marketing,Marketing Manager,Chicago,2021-08-25,,Marketing Manager (90k-125k),122873.3
+E0055,Mason Wilson,Finance,Financial Analyst,Chicago,2023-06-09,,Financial Analyst (65k-95k),68252.08
+E0056,Maria Wilson,Operations,Operations Analyst,New York,2024-03-26,,Operations Analyst (55k-85k),66555.86
+E0057,Mason Hernandez,Operations,Operations Analyst,Denver,2021-05-24,,Operations Analyst (55k-85k),65926.64
+E0058,Zoe Hernandez,Marketing,Marketing Analyst,San Francisco,2022-09-08,,Marketing Analyst (55k-85k),76592.63
+E0059,Logan Garcia,Support,Support Lead,Chicago,2022-01-28,,Support Lead (80k-110k),96632.37
+E0060,Ethan Wilson,Operations,Operations Manager,Chicago,2021-01-01,,Operations Manager (90k-125k),104212.63
+E0061,Carter Taylor,Operations,Operations Manager,Denver,2023-06-25,,Operations Manager (90k-125k),106274.59
+E0062,Chloe Hernandez,Sales,SDR,New York,2023-11-22,,SDR (50k-70k),51695.91
+E0063,Noah Smith,Marketing,Marketing Analyst,New York,2022-04-06,,Marketing Analyst (55k-85k),75183.87
+E0064,Wyatt Miller,Sales,Sales Manager,Denver,2021-05-30,,Sales Manager (90k-140k),120563.7
+E0065,James Brown,Support,Support Lead,San Francisco,2022-05-15,,Support Lead (80k-110k),94831.32
+E0066,Lily Davis,Sales,Account Executive,New York,2023-11-27,,Account Executive (60k-110k),100205.49
+E0067,Lily Hernandez,HR,HR Generalist,San Francisco,2024-09-29,,HR Generalist (55k-80k),75035.42
+E0068,Emma Taylor,Operations,Operations Manager,San Francisco,2024-01-28,,Operations Manager (90k-125k),119069.92
+E0069,Carter Taylor,Finance,Financial Analyst,Denver,2022-07-22,,Financial Analyst (65k-95k),90195.89
+E0070,Mason Hernandez,Sales,Sales Manager,Chicago,2022-08-09,,Sales Manager (90k-140k),111993.63
+E0071,Ethan Williams,Engineering,Senior Engineer,San Francisco,2023-02-24,,Senior Engineer (115k-155k),121033.23
+E0072,Logan Smith,HR,Recruiter,Chicago,2023-05-02,,Recruiter (55k-85k),71278.33
+E0073,Logan Wilson,HR,Recruiter,Chicago,2022-12-22,,Recruiter (55k-85k),55176.88
+E0074,James Gonzalez,Support,Support Engineer,Remote,2022-07-13,,Support Engineer (55k-85k),69646.88
+E0075,Chloe Moore,Support,Support Lead,New York,2023-08-16,,Support Lead (80k-110k),101725.44
+E0076,Noah Anderson,HR,HR Manager,Austin,2021-02-25,2023-10-20,HR Manager (90k-120k),106931.76
+E0077,Mason Gonzalez,Engineering,Engineering Manager,Remote,2022-03-10,,Engineering Manager (140k-180k),155164.15
+E0078,Lily Johnson,Marketing,Marketing Manager,Remote,2021-06-17,,Marketing Manager (90k-125k),98829.5
+E0079,Olivia Miller,Sales,SDR,New York,2024-08-27,,SDR (50k-70k),51372.37
+E0080,Wyatt Miller,Operations,Operations Analyst,San Francisco,2023-08-28,,Operations Analyst (55k-85k),62156.35
+E0081,Sofia Garcia,Support,Support Lead,Remote,2021-12-10,,Support Lead (80k-110k),103006.94
+E0082,Logan Gonzalez,Engineering,Software Engineer,Denver,2024-03-25,,Software Engineer (75k-115k),112155.49
+E0083,Ava Brown,Sales,Account Executive,Chicago,2024-07-08,,Account Executive (60k-110k),89604.89
+E0084,Liam Thomas,Marketing,Marketing Analyst,Denver,2023-05-28,,Marketing Analyst (55k-85k),65416.11
+E0085,Aiden Jones,Finance,Financial Analyst,San Francisco,2023-10-01,,Financial Analyst (65k-95k),90487.27
+E0086,Lily Taylor,Sales,SDR,San Francisco,2024-08-25,,SDR (50k-70k),60434.93
+E0087,Liam Rodriguez,HR,HR Manager,San Francisco,2022-10-23,,HR Manager (90k-120k),107774.24
+E0088,James Taylor,Sales,Sales Manager,Remote,2024-09-30,,Sales Manager (90k-140k),118492.48
+E0089,Chloe Rodriguez,Sales,Sales Manager,Chicago,2022-06-14,,Sales Manager (90k-140k),100605.99
+E0090,Olivia Taylor,Engineering,Senior Engineer,Denver,2023-04-13,,Senior Engineer (115k-155k),118424.52
+E0091,Logan Davis,Support,Support Lead,Remote,2021-02-05,2022-08-02,Support Lead (80k-110k),93445.24
+E0092,Lily Hernandez,Support,Support Lead,Remote,2023-12-24,,Support Lead (80k-110k),94197.81
+E0093,Ethan Hernandez,Support,Support Lead,New York,2022-05-30,,Support Lead (80k-110k),88127.49
+E0094,Wyatt Thomas,Support,Support Engineer,Chicago,2023-09-19,,Support Engineer (55k-85k),60746.23
+E0095,Emma Martinez,Finance,Financial Analyst,New York,2022-08-30,,Financial Analyst (65k-95k),89978.85
+E0096,Noah Taylor,Support,Support Engineer,New York,2021-04-22,,Support Engineer (55k-85k),63229.34
+E0097,Mason Garcia,Marketing,Marketing Analyst,New York,2023-08-20,,Marketing Analyst (55k-85k),72221.93
+E0098,Liam Johnson,Finance,Accountant,Austin,2021-05-14,,Accountant (55k-80k),57852.18
+E0099,Sofia Moore,Sales,SDR,San Francisco,2021-06-24,,SDR (50k-70k),68982.51
+E0100,Aiden Martinez,Operations,Operations Analyst,Chicago,2023-02-19,,Operations Analyst (55k-85k),78270.81
+E0101,Sofia Miller,HR,Recruiter,Denver,2021-05-04,,Recruiter (55k-85k),72058.88
+E0102,Lily Williams,Sales,Sales Manager,Austin,2021-11-18,,Sales Manager (90k-140k),123021.41
+E0103,Maria Davis,Engineering,QA Engineer,Remote,2024-05-01,,QA Engineer (65k-95k),78515.11
+E0104,Lucas Miller,Support,Support Lead,San Francisco,2023-07-19,,Support Lead (80k-110k),101089.63
+E0105,Liam Johnson,Engineering,Senior Engineer,Austin,2022-06-29,,Senior Engineer (115k-155k),140905.39
+E0106,Aiden Brown,Marketing,Marketing Manager,San Francisco,2024-03-11,,Marketing Manager (90k-125k),110826.54
+E0107,Grace Anderson,Support,Support Lead,New York,2022-07-12,,Support Lead (80k-110k),100992.01
+E0108,James Williams,Operations,Operations Analyst,Austin,2022-10-23,,Operations Analyst (55k-85k),81682.69
+E0109,Wyatt Johnson,Support,Support Engineer,Austin,2024-10-08,,Support Engineer (55k-85k),84987.17
+E0110,Wyatt Wilson,HR,HR Manager,Denver,2022-07-24,,HR Manager (90k-120k),109545.28
+E0111,Mason Hernandez,Marketing,Marketing Manager,Denver,2023-08-21,,Marketing Manager (90k-125k),123916.93
+E0112,Logan Moore,Engineering,Senior Engineer,New York,2023-10-12,,Senior Engineer (115k-155k),128192.15
+E0113,Carter Smith,HR,HR Generalist,Denver,2022-10-25,,HR Generalist (55k-80k),62862.93
+E0114,Chloe Taylor,Marketing,Marketing Manager,Denver,2022-01-20,,Marketing Manager (90k-125k),104463.66
+E0115,Ava Anderson,HR,HR Generalist,Denver,2024-01-30,,HR Generalist (55k-80k),60088.96
+E0116,Olivia Garcia,HR,HR Generalist,Remote,2024-07-14,,HR Generalist (55k-80k),55721.74
+E0117,Sofia Anderson,Operations,Operations Analyst,New York,2021-07-10,,Operations Analyst (55k-85k),71567.54
+E0118,Lucas Wilson,Support,Support Engineer,San Francisco,2022-08-21,,Support Engineer (55k-85k),69951.27
+E0119,Chloe Thomas,HR,HR Generalist,Denver,2021-10-24,,HR Generalist (55k-80k),66419.66
+E0120,Carter Rodriguez,Sales,Account Executive,New York,2023-04-30,,Account Executive (60k-110k),73812.37
+E0121,Grace Jones,Finance,Finance Manager,San Francisco,2024-04-17,,Finance Manager (95k-130k),105449.45
+E0122,Logan Anderson,Operations,Operations Manager,Remote,2024-02-05,,Operations Manager (90k-125k),102079.34
+E0123,Olivia Wilson,Marketing,Marketing Analyst,New York,2022-05-05,,Marketing Analyst (55k-85k),84423.24
+E0124,Noah Taylor,Finance,Finance Manager,New York,2023-02-20,,Finance Manager (95k-130k),111554.17
+E0125,Aiden Brown,Sales,SDR,Chicago,2022-11-11,,SDR (50k-70k),69307.07
+E0126,Noah Williams,HR,HR Generalist,San Francisco,2023-04-20,,HR Generalist (55k-80k),73061.1
+E0127,Mason Moore,Marketing,Marketing Manager,San Francisco,2023-03-26,,Marketing Manager (90k-125k),101849.64
+E0128,Maria Williams,Finance,Finance Manager,Austin,2023-09-27,,Finance Manager (95k-130k),120155.11
+E0129,Sofia Brown,Support,Support Lead,San Francisco,2021-07-05,,Support Lead (80k-110k),109922.78
+E0130,Ava Lopez,Sales,SDR,Remote,2021-03-01,2021-09-21,SDR (50k-70k),55989.32
+E0131,Emma Garcia,HR,HR Generalist,Austin,2023-04-24,,HR Generalist (55k-80k),61104.94
+E0132,Wyatt Jones,Engineering,QA Engineer,Austin,2022-05-09,,QA Engineer (65k-95k),83591.31
+E0133,Aiden Martinez,HR,HR Manager,Denver,2022-06-07,,HR Manager (90k-120k),97619.32
+E0134,Ava Wilson,Operations,Operations Analyst,Denver,2022-12-09,,Operations Analyst (55k-85k),57215.86
+E0135,Grace Brown,Finance,Accountant,Austin,2022-02-12,,Accountant (55k-80k),76132.6
+E0136,Ava Smith,HR,HR Manager,Denver,2022-08-29,,HR Manager (90k-120k),100768.77
+E0137,Grace Martinez,HR,Recruiter,Austin,2021-04-11,,Recruiter (55k-85k),55242.94
+E0138,Noah Brown,Operations,Operations Manager,Denver,2022-01-25,,Operations Manager (90k-125k),97665.16
+E0139,Noah Williams,Support,Support Engineer,Remote,2023-06-22,,Support Engineer (55k-85k),64267.99
+E0140,Lily Lopez,Finance,Finance Manager,Chicago,2022-02-16,,Finance Manager (95k-130k),109542.61
+E0141,Grace Martinez,Operations,Operations Manager,Denver,2022-06-11,,Operations Manager (90k-125k),119066.54
+E0142,Noah Davis,Marketing,Marketing Manager,Denver,2023-08-18,,Marketing Manager (90k-125k),118148.14
+E0143,Logan Smith,Support,Support Lead,Remote,2024-02-16,,Support Lead (80k-110k),109018.09
+E0144,Lucas Gonzalez,Operations,Operations Analyst,Denver,2024-10-09,,Operations Analyst (55k-85k),68643.58
+E0145,Chloe Davis,Finance,Financial Analyst,Denver,2023-08-24,,Financial Analyst (65k-95k),85245.1
+E0146,Sofia Jones,Engineering,QA Engineer,New York,2022-09-11,,QA Engineer (65k-95k),92281.63
+E0147,Noah Gonzalez,Engineering,Engineering Manager,San Francisco,2021-08-26,2024-11-28,Engineering Manager (140k-180k),179837.09
+E0148,Noah Wilson,Finance,Finance Manager,Denver,2024-01-12,,Finance Manager (95k-130k),128228.33
+E0149,Ethan Anderson,Engineering,QA Engineer,San Francisco,2022-07-27,2024-11-21,QA Engineer (65k-95k),83469.57
+E0150,Mia Johnson,Sales,Sales Manager,San Francisco,2023-01-23,,Sales Manager (90k-140k),94967.73
+E0151,Chloe Smith,Finance,Financial Analyst,New York,2023-07-21,2024-12-26,Financial Analyst (65k-95k),94046.21
+E0152,Ethan Williams,Marketing,Marketing Manager,Chicago,2021-09-15,,Marketing Manager (90k-125k),98524.91
+E0153,Noah Smith,Sales,SDR,Remote,2022-04-23,,SDR (50k-70k),54319.03
+E0154,Emma Brown,Marketing,Marketing Analyst,Denver,2024-01-12,,Marketing Analyst (55k-85k),84625.82
+E0155,Olivia Hernandez,Marketing,Marketing Analyst,New York,2023-01-04,,Marketing Analyst (55k-85k),58954.1
+E0156,Liam Taylor,Sales,Sales Manager,San Francisco,2023-05-13,,Sales Manager (90k-140k),92619.95
+E0157,Olivia Johnson,Marketing,Marketing Manager,Denver,2021-08-12,,Marketing Manager (90k-125k),107963.33
+E0158,Logan Wilson,Marketing,Marketing Manager,Denver,2021-03-05,2024-02-08,Marketing Manager (90k-125k),106031.49
+E0159,Mason Jones,Engineering,QA Engineer,New York,2023-06-28,2024-03-09,QA Engineer (65k-95k),86372.04
+E0160,Mason Gonzalez,Sales,Sales Manager,Chicago,2024-04-13,,Sales Manager (90k-140k),121215.87
+E0161,Sofia Moore,Operations,Operations Manager,Denver,2024-05-24,,Operations Manager (90k-125k),105880.04
+E0162,Aiden Gonzalez,Marketing,Marketing Analyst,San Francisco,2022-04-13,,Marketing Analyst (55k-85k),67902.1
+E0163,Mia Jones,Support,Support Engineer,Denver,2022-10-03,,Support Engineer (55k-85k),64376.45
+E0164,Mia Jones,HR,HR Generalist,Chicago,2021-06-24,2022-04-07,HR Generalist (55k-80k),57280.62
+E0165,Zoe Johnson,Engineering,Engineering Manager,Remote,2023-04-22,,Engineering Manager (140k-180k),166800.53
+E0166,Noah Taylor,Operations,Operations Manager,Austin,2024-03-29,,Operations Manager (90k-125k),102307.62
+E0167,Lucas Davis,Marketing,Marketing Analyst,San Francisco,2024-02-14,,Marketing Analyst (55k-85k),65503.42
+E0168,Lucas Smith,Marketing,Marketing Analyst,Austin,2024-09-09,,Marketing Analyst (55k-85k),73269.85
+E0169,Emma Jones,Finance,Finance Manager,Chicago,2022-11-27,,Finance Manager (95k-130k),121684.33
+E0170,Liam Thomas,Support,Support Lead,Austin,2024-07-20,,Support Lead (80k-110k),82087.56
+E0171,Mason Williams,HR,Recruiter,New York,2021-11-19,,Recruiter (55k-85k),68609.37
+E0172,Lucas Anderson,Sales,Account Executive,Denver,2021-04-12,,Account Executive (60k-110k),97721.79
+E0173,Carter Brown,HR,Recruiter,Remote,2023-04-29,,Recruiter (55k-85k),73212.28
+E0174,Carter Martinez,HR,HR Generalist,New York,2024-10-21,,HR Generalist (55k-80k),62081.16
+E0175,Ethan Jones,Sales,Sales Manager,Remote,2021-04-23,2023-03-31,Sales Manager (90k-140k),139222.28
+E0176,Emma Jones,Finance,Accountant,San Francisco,2023-10-16,,Accountant (55k-80k),57999.61
+E0177,Liam Gonzalez,Operations,Operations Analyst,Denver,2024-09-30,,Operations Analyst (55k-85k),70007.87
+E0178,Wyatt Wilson,Engineering,QA Engineer,Chicago,2021-06-09,,QA Engineer (65k-95k),65562.25
+E0179,Mason Garcia,HR,HR Manager,Chicago,2022-08-16,2022-12-26,HR Manager (90k-120k),109204.25
+E0180,Sofia Davis,HR,HR Manager,San Francisco,2021-06-30,,HR Manager (90k-120k),117593.09
+E0181,Mason Davis,Operations,Operations Manager,Remote,2023-03-22,,Operations Manager (90k-125k),108338.69
+E0182,Ethan Lopez,Marketing,Marketing Analyst,Remote,2024-07-20,,Marketing Analyst (55k-85k),57291.38
+E0183,Emma Jones,Support,Support Engineer,Denver,2021-10-27,,Support Engineer (55k-85k),62088.07
+E0184,Wyatt Anderson,Engineering,Senior Engineer,Denver,2024-07-10,,Senior Engineer (115k-155k),153051.69
+E0185,Aiden Williams,Operations,Operations Manager,San Francisco,2024-07-08,,Operations Manager (90k-125k),120248.64
+E0186,Mia Thomas,HR,HR Manager,New York,2022-07-17,,HR Manager (90k-120k),99084.61
+E0187,Ava Williams,Finance,Accountant,Denver,2021-04-27,,Accountant (55k-80k),66297.85
+E0188,Wyatt Moore,Marketing,Marketing Analyst,Denver,2023-11-05,,Marketing Analyst (55k-85k),73450.25
+E0189,Mason Taylor,Engineering,QA Engineer,Chicago,2024-03-16,,QA Engineer (65k-95k),92271.5
+E0190,Liam Thomas,Sales,Account Executive,Denver,2022-12-05,,Account Executive (60k-110k),82526.16
+E0191,Carter Thomas,Sales,Account Executive,Chicago,2023-06-16,,Account Executive (60k-110k),72387.19
+E0192,Mason Johnson,Sales,Sales Manager,Denver,2022-08-03,,Sales Manager (90k-140k),108642.6
+E0193,Logan Martinez,Support,Support Lead,Remote,2021-07-13,,Support Lead (80k-110k),81977.36
+E0194,Mia Martinez,Support,Support Engineer,Denver,2024-04-08,,Support Engineer (55k-85k),65000.86
+E0195,Logan Hernandez,Support,Support Lead,Austin,2021-06-23,,Support Lead (80k-110k),83868.55
+E0196,James Lopez,Support,Support Engineer,Remote,2023-05-18,,Support Engineer (55k-85k),74380.74
+E0197,Noah Jones,Sales,Account Executive,New York,2023-09-23,,Account Executive (60k-110k),77086.62
+E0198,Carter Johnson,Finance,Financial Analyst,Denver,2024-01-11,,Financial Analyst (65k-95k),80230.69
+E0199,Emma Garcia,Finance,Finance Manager,Denver,2023-02-11,,Finance Manager (95k-130k),99586.72
+E0200,Aiden Martinez,HR,HR Generalist,Denver,2024-10-17,,HR Generalist (55k-80k),65271.47
+E0201,Grace Miller,Marketing,Marketing Manager,Remote,2022-05-05,,Marketing Manager (90k-125k),98190.1
+E0202,Carter Thomas,Support,Support Lead,San Francisco,2022-08-01,,Support Lead (80k-110k),93850.4
+E0203,Maria Taylor,Sales,Account Executive,Remote,2021-10-11,,Account Executive (60k-110k),100062.96
+E0204,Ava Williams,Operations,Operations Analyst,Austin,2023-11-23,,Operations Analyst (55k-85k),76342.03
+E0205,Liam Davis,Finance,Accountant,San Francisco,2021-10-29,,Accountant (55k-80k),77632.66
+E0206,Olivia Gonzalez,Finance,Financial Analyst,New York,2023-03-23,,Financial Analyst (65k-95k),77446.91
+E0207,Mason Jones,Finance,Financial Analyst,Austin,2021-07-22,,Financial Analyst (65k-95k),65845.63
+E0208,Noah Taylor,Engineering,Engineering Manager,San Francisco,2023-08-26,,Engineering Manager (140k-180k),176695.85
+E0209,Noah Moore,Operations,Operations Analyst,Denver,2021-02-08,,Operations Analyst (55k-85k),82175.72
+E0210,Sofia Johnson,Operations,Operations Manager,Austin,2022-08-14,,Operations Manager (90k-125k),93891.54
+E0211,Chloe Moore,HR,HR Manager,New York,2023-07-26,,HR Manager (90k-120k),113816.97
+E0212,Chloe Lopez,Support,Support Engineer,Austin,2022-08-20,,Support Engineer (55k-85k),76556.33
+E0213,Liam Thomas,Operations,Operations Manager,Chicago,2024-09-30,,Operations Manager (90k-125k),96555.99
+E0214,Mia Rodriguez,Operations,Operations Analyst,Denver,2023-08-21,,Operations Analyst (55k-85k),66713.61
+E0215,Sofia Hernandez,Engineering,Engineering Manager,Austin,2022-12-08,,Engineering Manager (140k-180k),171540.8
+E0216,Aiden Taylor,Engineering,Engineering Manager,Denver,2024-08-09,,Engineering Manager (140k-180k),161840.55
+E0217,Maria Miller,Sales,Account Executive,New York,2023-07-27,2024-12-10,Account Executive (60k-110k),63155.03
+E0218,Maria Miller,Finance,Accountant,Remote,2024-01-18,,Accountant (55k-80k),67884.59
+E0219,Mia Wilson,Finance,Financial Analyst,San Francisco,2022-11-11,,Financial Analyst (65k-95k),90973.95
+E0220,Emma Taylor,Support,Support Lead,Denver,2023-03-03,,Support Lead (80k-110k),106839.12
+E0221,Liam Wilson,HR,Recruiter,New York,2023-11-30,,Recruiter (55k-85k),82729.31
+E0222,Mason Brown,HR,HR Manager,New York,2022-01-05,,HR Manager (90k-120k),119852.94
+E0223,Zoe Garcia,Finance,Finance Manager,Denver,2023-07-03,,Finance Manager (95k-130k),105347.4
+E0224,Zoe Rodriguez,HR,Recruiter,Denver,2022-12-24,,Recruiter (55k-85k),68413.89
+E0225,Carter Garcia,Marketing,Marketing Analyst,New York,2024-07-29,,Marketing Analyst (55k-85k),57251.23
+E0226,Olivia Lopez,Sales,SDR,Remote,2023-06-17,2024-01-30,SDR (50k-70k),63561.78
+E0227,Mia Lopez,HR,HR Manager,San Francisco,2021-11-11,,HR Manager (90k-120k),90971.56
+E0228,Mason Rodriguez,Marketing,Marketing Analyst,Austin,2023-12-21,,Marketing Analyst (55k-85k),72217.65
+E0229,Lily Brown,Engineering,Software Engineer,Remote,2023-10-20,,Software Engineer (75k-115k),104426.99
+E0230,Ava Taylor,Marketing,Marketing Manager,Austin,2022-03-16,,Marketing Manager (90k-125k),114641.32
+E0231,Aiden Williams,Engineering,Senior Engineer,Denver,2023-07-15,,Senior Engineer (115k-155k),149113.05
+E0232,Ava Martinez,Marketing,Marketing Manager,Austin,2021-05-13,,Marketing Manager (90k-125k),113374.39
+E0233,Ethan Jones,Support,Support Engineer,Austin,2023-11-08,,Support Engineer (55k-85k),78810.89
+E0234,Aiden Moore,Marketing,Marketing Manager,Austin,2024-02-09,,Marketing Manager (90k-125k),90919.94
+E0235,Grace Thomas,Operations,Operations Analyst,San Francisco,2023-03-27,,Operations Analyst (55k-85k),56972.44
+E0236,Mason Williams,Marketing,Marketing Manager,San Francisco,2021-06-01,,Marketing Manager (90k-125k),118816.88
+E0237,Lily Garcia,HR,HR Manager,Austin,2021-09-20,,HR Manager (90k-120k),105520.8
+E0238,Carter Jones,HR,HR Manager,Remote,2021-04-24,,HR Manager (90k-120k),117321.37
+E0239,Carter Martinez,Sales,Account Executive,New York,2022-04-07,,Account Executive (60k-110k),76133.04
+E0240,Ava Moore,Finance,Financial Analyst,New York,2024-02-03,,Financial Analyst (65k-95k),84051.71
+E0241,Chloe Hernandez,Operations,Operations Analyst,Chicago,2024-04-04,,Operations Analyst (55k-85k),72754.25
+E0242,Lucas Miller,Engineering,Software Engineer,Chicago,2024-08-06,,Software Engineer (75k-115k),78248.91
+E0243,Lily Martinez,HR,HR Manager,Denver,2023-10-17,,HR Manager (90k-120k),109169.74
+E0244,Liam Johnson,Finance,Accountant,Austin,2023-04-12,,Accountant (55k-80k),61121.95
+E0245,Noah Hernandez,HR,Recruiter,Denver,2022-02-22,,Recruiter (55k-85k),69527.53
+E0246,Noah Lopez,Finance,Finance Manager,Chicago,2022-12-09,,Finance Manager (95k-130k),129580.82
+E0247,Aiden Davis,Operations,Operations Analyst,Austin,2023-08-14,,Operations Analyst (55k-85k),64573.48
+E0248,Zoe Davis,Engineering,Software Engineer,Austin,2023-02-26,,Software Engineer (75k-115k),86608.48
+E0249,Emma Taylor,Marketing,Marketing Manager,Chicago,2022-10-03,,Marketing Manager (90k-125k),122681.3
+E0250,Carter Anderson,HR,Recruiter,Austin,2023-10-16,,Recruiter (55k-85k),81372.27
+E0251,Chloe Taylor,Sales,SDR,Remote,2021-04-14,,SDR (50k-70k),57057.9
+E0252,Lucas Lopez,Operations,Operations Analyst,San Francisco,2023-06-02,,Operations Analyst (55k-85k),80415.17
+E0253,Mia Moore,Finance,Financial Analyst,Remote,2024-03-13,,Financial Analyst (65k-95k),77017.45
+E0254,Chloe Brown,Engineering,QA Engineer,Austin,2024-02-01,,QA Engineer (65k-95k),80127.67
+E0255,Mia Jones,Engineering,QA Engineer,Austin,2022-11-26,,QA Engineer (65k-95k),76195.95
+E0256,Grace Thomas,Operations,Operations Manager,San Francisco,2021-04-03,2023-05-15,Operations Manager (90k-125k),107502.73
+E0257,Chloe Hernandez,Sales,SDR,Austin,2021-10-14,,SDR (50k-70k),67862.63
+E0258,Carter Thomas,HR,HR Manager,Chicago,2022-09-05,,HR Manager (90k-120k),112179.58
+E0259,Mia Hernandez,HR,HR Manager,Denver,2023-08-31,,HR Manager (90k-120k),106887.73
+E0260,Lucas Davis,Engineering,QA Engineer,Denver,2024-07-12,,QA Engineer (65k-95k),82511.06
+E0261,Logan Jones,Engineering,QA Engineer,Denver,2024-07-12,,QA Engineer (65k-95k),70115.36
+E0262,Aiden Hernandez,Sales,Account Executive,San Francisco,2021-08-14,,Account Executive (60k-110k),88628.51
+E0263,Chloe Taylor,Sales,Sales Manager,Denver,2023-04-21,,Sales Manager (90k-140k),124525.01
+E0264,Mason Taylor,Support,Support Engineer,Chicago,2023-11-29,,Support Engineer (55k-85k),76173.26
+E0265,Mason Moore,HR,Recruiter,Remote,2023-07-31,,Recruiter (55k-85k),83700.56
+E0266,Lucas Moore,Support,Support Lead,Remote,2022-01-29,,Support Lead (80k-110k),98302.3
+E0267,Grace Hernandez,Sales,Sales Manager,San Francisco,2022-03-01,,Sales Manager (90k-140k),128558.71
+E0268,Wyatt Moore,Finance,Finance Manager,San Francisco,2022-07-15,,Finance Manager (95k-130k),127679.51
+E0269,Ava Williams,HR,Recruiter,Remote,2021-10-27,,Recruiter (55k-85k),83638.27
+E0270,Lily Rodriguez,HR,HR Manager,Chicago,2023-09-09,,HR Manager (90k-120k),97693.32
+E0271,Olivia Davis,Support,Support Lead,New York,2024-06-14,,Support Lead (80k-110k),84118.19
+E0272,Grace Brown,Support,Support Engineer,Denver,2021-04-18,2023-05-24,Support Engineer (55k-85k),74138.34
+E0273,Emma Wilson,Marketing,Marketing Analyst,Denver,2024-02-02,,Marketing Analyst (55k-85k),55155.44
+E0274,Maria Williams,HR,Recruiter,Denver,2022-08-12,,Recruiter (55k-85k),74516.16
+E0275,Emma Wilson,Operations,Operations Analyst,Austin,2021-03-18,,Operations Analyst (55k-85k),71054.57
+E0276,Ava Johnson,Engineering,QA Engineer,New York,2022-01-17,,QA Engineer (65k-95k),88638.82
+E0277,Lily Thomas,Finance,Finance Manager,San Francisco,2022-11-18,,Finance Manager (95k-130k),116097.4
+E0278,Mason Garcia,Sales,SDR,Denver,2022-01-30,,SDR (50k-70k),59360.42
+E0279,Ava Miller,HR,HR Manager,Austin,2022-01-17,2024-03-07,HR Manager (90k-120k),97717.95
+E0280,Logan Brown,Operations,Operations Manager,Austin,2023-11-22,,Operations Manager (90k-125k),118944.64
+E0281,Olivia Anderson,Sales,Sales Manager,Remote,2022-05-24,2024-10-15,Sales Manager (90k-140k),106180.08
+E0282,Olivia Johnson,Finance,Accountant,Denver,2024-03-19,,Accountant (55k-80k),69561.52
+E0283,Ava Brown,Engineering,QA Engineer,Denver,2023-04-11,,QA Engineer (65k-95k),74204.19
+E0284,Grace Jones,Finance,Accountant,San Francisco,2022-03-25,,Accountant (55k-80k),70365.64
+E0285,Lily Miller,Support,Support Lead,Austin,2024-01-30,,Support Lead (80k-110k),92475.37
+E0286,Liam Brown,Support,Support Engineer,New York,2023-12-18,,Support Engineer (55k-85k),70765.2
+E0287,Carter Anderson,Marketing,Marketing Analyst,New York,2021-11-03,,Marketing Analyst (55k-85k),72181.05
+E0288,Aiden Johnson,Support,Support Engineer,San Francisco,2023-09-29,,Support Engineer (55k-85k),76507.54
+E0289,Ava Smith,Sales,SDR,San Francisco,2024-02-29,,SDR (50k-70k),58308.49
+E0290,Mia Williams,Finance,Financial Analyst,Chicago,2024-03-30,,Financial Analyst (65k-95k),87374.13
+E0291,Emma Jones,Engineering,Software Engineer,Denver,2023-08-25,,Software Engineer (75k-115k),114445.49
+E0292,Logan Gonzalez,Support,Support Lead,New York,2023-02-23,,Support Lead (80k-110k),91233.83
+E0293,Logan Thomas,Support,Support Engineer,Austin,2022-12-14,,Support Engineer (55k-85k),74606.02
+E0294,Aiden Moore,Support,Support Engineer,San Francisco,2021-02-16,,Support Engineer (55k-85k),80044.65
+E0295,Noah Rodriguez,Operations,Operations Manager,Austin,2022-05-22,,Operations Manager (90k-125k),118817.62
+E0296,James Davis,Support,Support Engineer,Austin,2024-09-14,,Support Engineer (55k-85k),55966.52
+E0297,Maria Davis,Engineering,Software Engineer,Denver,2023-07-04,,Software Engineer (75k-115k),98757.77
+E0298,Maria Jones,Engineering,QA Engineer,Chicago,2024-01-11,,QA Engineer (65k-95k),78168.88
+E0299,Chloe Hernandez,Finance,Financial Analyst,Austin,2024-03-25,,Financial Analyst (65k-95k),89473.59
+E0300,Ava Rodriguez,Finance,Financial Analyst,New York,2023-12-04,,Financial Analyst (65k-95k),94570.87
+E0301,Maria Lopez,Operations,Operations Analyst,Denver,2023-05-25,,Operations Analyst (55k-85k),73779.79
+E0302,Zoe Jones,Support,Support Lead,Remote,2022-10-15,,Support Lead (80k-110k),103574.14
+E0303,Olivia Martinez,HR,HR Generalist,Denver,2023-08-28,,HR Generalist (55k-80k),73860.4
+E0304,Zoe Moore,Sales,Sales Manager,Chicago,2024-02-26,,Sales Manager (90k-140k),135737.06
+E0305,Liam Anderson,Sales,Sales Manager,Remote,2022-02-21,,Sales Manager (90k-140k),102142.93
+E0306,Chloe Johnson,Engineering,Senior Engineer,New York,2023-02-12,,Senior Engineer (115k-155k),117061.47
+E0307,Ethan Hernandez,Sales,SDR,Remote,2024-02-19,,SDR (50k-70k),64486.1
+E0308,Grace Davis,Engineering,Senior Engineer,Denver,2021-08-29,,Senior Engineer (115k-155k),152486.39
+E0309,Ava Gonzalez,Operations,Operations Analyst,San Francisco,2022-05-06,,Operations Analyst (55k-85k),66898.96
+E0310,Grace Anderson,Operations,Operations Manager,New York,2023-01-07,,Operations Manager (90k-125k),100794.78
+E0311,Mia Hernandez,Marketing,Marketing Manager,San Francisco,2022-10-18,,Marketing Manager (90k-125k),116657.01
+E0312,Wyatt Wilson,Engineering,Senior Engineer,Remote,2021-02-03,,Senior Engineer (115k-155k),144650.1
+E0313,Olivia Taylor,Sales,Account Executive,Chicago,2023-02-17,,Account Executive (60k-110k),76493.26
+E0314,Grace Anderson,Support,Support Lead,Austin,2023-09-28,,Support Lead (80k-110k),87719.8
+E0315,Lily Johnson,Support,Support Lead,Chicago,2024-01-25,,Support Lead (80k-110k),85077.97
+E0316,Zoe Jones,Engineering,Software Engineer,Denver,2024-09-30,,Software Engineer (75k-115k),112807.52
+E0317,Aiden Lopez,Sales,Account Executive,New York,2021-01-19,,Account Executive (60k-110k),95358.48
+E0318,James Smith,Operations,Operations Manager,Chicago,2021-02-02,2023-08-23,Operations Manager (90k-125k),113074.95
+E0319,Emma Brown,Support,Support Lead,New York,2022-08-11,,Support Lead (80k-110k),96072.14
+E0320,Mia Rodriguez,Operations,Operations Analyst,San Francisco,2024-06-23,,Operations Analyst (55k-85k),62229.06
+E0321,Olivia Martinez,Engineering,Engineering Manager,Denver,2023-07-30,,Engineering Manager (140k-180k),178371.91
+E0322,Liam Gonzalez,Marketing,Marketing Analyst,San Francisco,2024-08-23,,Marketing Analyst (55k-85k),74612.07
+E0323,Liam Taylor,HR,HR Manager,San Francisco,2024-07-28,,HR Manager (90k-120k),104280.15
+E0324,Maria Davis,Support,Support Lead,Austin,2021-07-15,,Support Lead (80k-110k),96975.7
+E0325,Lucas Moore,Marketing,Marketing Manager,Chicago,2021-06-02,,Marketing Manager (90k-125k),99488.33
+E0326,Wyatt Jones,Support,Support Engineer,Denver,2022-10-07,2024-03-04,Support Engineer (55k-85k),60380.64
+E0327,Olivia Gonzalez,Marketing,Marketing Manager,Denver,2022-09-05,,Marketing Manager (90k-125k),122510.62
+E0328,Liam Thomas,Operations,Operations Manager,Denver,2021-10-14,,Operations Manager (90k-125k),103434.62
+E0329,Mason Gonzalez,Finance,Financial Analyst,Remote,2022-04-21,,Financial Analyst (65k-95k),67930.57
+E0330,Mia Moore,Engineering,Engineering Manager,San Francisco,2023-07-12,,Engineering Manager (140k-180k),171341.93
+E0331,Chloe Martinez,HR,HR Generalist,Austin,2024-09-15,,HR Generalist (55k-80k),71992.37
+E0332,Noah Gonzalez,Support,Support Engineer,Remote,2021-11-12,,Support Engineer (55k-85k),57461.14
+E0333,Lucas Brown,Finance,Financial Analyst,Austin,2022-09-24,,Financial Analyst (65k-95k),67745.61
+E0334,Zoe Brown,Engineering,Senior Engineer,New York,2024-02-15,,Senior Engineer (115k-155k),132239.18
+E0335,Mason Gonzalez,Engineering,Engineering Manager,New York,2024-05-07,,Engineering Manager (140k-180k),162168.79
+E0336,Lily Davis,Finance,Accountant,Chicago,2021-06-23,,Accountant (55k-80k),64694.99
+E0337,Ava Rodriguez,Operations,Operations Analyst,San Francisco,2021-12-14,,Operations Analyst (55k-85k),75559.48
+E0338,Grace Williams,Sales,Account Executive,Remote,2022-07-20,,Account Executive (60k-110k),68360.37
+E0339,Ethan Anderson,Finance,Financial Analyst,New York,2023-10-13,,Financial Analyst (65k-95k),86626.98
+E0340,Chloe Gonzalez,Sales,Sales Manager,Remote,2023-03-22,,Sales Manager (90k-140k),90338.37
+E0341,Noah Martinez,HR,Recruiter,Remote,2024-08-26,,Recruiter (55k-85k),67918.49
+E0342,Mason Martinez,Operations,Operations Analyst,Denver,2021-12-30,,Operations Analyst (55k-85k),69370.29
+E0343,Lucas Gonzalez,Support,Support Lead,Remote,2022-05-12,,Support Lead (80k-110k),109032.89
+E0344,Lily Smith,Engineering,Senior Engineer,Denver,2024-01-23,,Senior Engineer (115k-155k),138689.08
+E0345,Liam Wilson,HR,HR Manager,Denver,2022-08-20,,HR Manager (90k-120k),96289.45
+E0346,Noah Wilson,HR,HR Generalist,San Francisco,2022-05-11,,HR Generalist (55k-80k),70833.4
+E0347,Lily Thomas,Engineering,QA Engineer,Denver,2023-09-09,,QA Engineer (65k-95k),94721.02
+E0348,Lily Williams,HR,HR Manager,New York,2023-01-07,,HR Manager (90k-120k),91102.95
+E0349,Chloe Johnson,Marketing,Marketing Analyst,Chicago,2022-12-29,,Marketing Analyst (55k-85k),74728.05
+E0350,Zoe Brown,Support,Support Lead,New York,2022-11-11,,Support Lead (80k-110k),109004.33
+E0351,Wyatt Davis,Engineering,Engineering Manager,San Francisco,2023-11-29,,Engineering Manager (140k-180k),148880.04
+E0352,Carter Jones,Finance,Accountant,Remote,2024-10-23,,Accountant (55k-80k),66576.58
+E0353,Liam Brown,Engineering,QA Engineer,Denver,2023-05-02,,QA Engineer (65k-95k),68136.48
+E0354,Carter Taylor,Sales,Sales Manager,Remote,2023-07-22,,Sales Manager (90k-140k),105594.52
+E0355,Ava Johnson,HR,HR Generalist,Denver,2023-07-16,,HR Generalist (55k-80k),65954.15
+E0356,Olivia Thomas,Engineering,Software Engineer,Austin,2024-08-20,,Software Engineer (75k-115k),108967.2
+E0357,Olivia Gonzalez,Operations,Operations Analyst,Denver,2023-05-24,,Operations Analyst (55k-85k),64929.69
+E0358,Chloe Miller,Sales,Account Executive,San Francisco,2023-06-05,,Account Executive (60k-110k),92023.94
+E0359,Liam Brown,Operations,Operations Manager,Chicago,2022-03-16,,Operations Manager (90k-125k),103609.25
+E0360,Carter Hernandez,Sales,Sales Manager,Chicago,2023-07-27,,Sales Manager (90k-140k),106299.25
+E0361,Aiden Garcia,HR,HR Manager,Denver,2021-08-22,,HR Manager (90k-120k),101776.32
+E0362,Mason Brown,Support,Support Lead,Austin,2024-04-23,,Support Lead (80k-110k),107560.48
+E0363,Zoe Jones,Finance,Financial Analyst,Chicago,2021-10-17,,Financial Analyst (65k-95k),70491.34
+E0364,Emma Moore,HR,Recruiter,Austin,2024-07-25,,Recruiter (55k-85k),60572.61
+E0365,Chloe Johnson,HR,Recruiter,Remote,2022-10-07,,Recruiter (55k-85k),59208.9
+E0366,Carter Taylor,Engineering,QA Engineer,San Francisco,2023-02-26,,QA Engineer (65k-95k),69096.04
+E0367,Liam Smith,Support,Support Lead,Austin,2023-06-29,,Support Lead (80k-110k),92468.91
+E0368,Aiden Taylor,Finance,Financial Analyst,Chicago,2024-01-07,,Financial Analyst (65k-95k),73245.59
+E0369,Mia Moore,Operations,Operations Analyst,New York,2022-07-03,,Operations Analyst (55k-85k),72181.42
+E0370,Ava Johnson,Marketing,Marketing Manager,San Francisco,2023-05-21,,Marketing Manager (90k-125k),109122.36
+E0371,Sofia Davis,Finance,Accountant,Austin,2021-06-28,,Accountant (55k-80k),76554.99
+E0372,Emma Jones,Marketing,Marketing Manager,Austin,2024-06-03,,Marketing Manager (90k-125k),120136.7
+E0373,Lucas Moore,Marketing,Marketing Analyst,Austin,2024-03-13,,Marketing Analyst (55k-85k),79163.21
+E0374,Carter Brown,Finance,Finance Manager,Austin,2024-03-18,,Finance Manager (95k-130k),105242.21
+E0375,Noah Jones,Marketing,Marketing Manager,Austin,2022-07-22,,Marketing Manager (90k-125k),122156.9
+E0376,Logan Taylor,Sales,SDR,Austin,2022-05-22,,SDR (50k-70k),56441.93
+E0377,Liam Gonzalez,Operations,Operations Manager,Chicago,2023-02-08,,Operations Manager (90k-125k),111973.45
+E0378,Grace Hernandez,Support,Support Lead,Chicago,2023-01-26,,Support Lead (80k-110k),100841.11
+E0379,Mia Williams,Engineering,Software Engineer,Chicago,2023-07-28,,Software Engineer (75k-115k),104237.28
+E0380,Mason Martinez,HR,HR Generalist,Remote,2022-03-10,,HR Generalist (55k-80k),79203.21
+E0381,Maria Johnson,Operations,Operations Analyst,New York,2023-09-21,,Operations Analyst (55k-85k),71984.26
+E0382,James Wilson,Support,Support Lead,Austin,2021-11-20,,Support Lead (80k-110k),80488.44
+E0383,Lucas Williams,Support,Support Engineer,Denver,2022-09-11,,Support Engineer (55k-85k),81464.43
+E0384,Emma Johnson,Finance,Accountant,San Francisco,2024-09-22,,Accountant (55k-80k),57060.51
+E0385,Liam Brown,Support,Support Lead,New York,2022-04-25,,Support Lead (80k-110k),101779.65
+E0386,Aiden Smith,Sales,Sales Manager,New York,2024-04-30,,Sales Manager (90k-140k),93896.94
+E0387,Grace Williams,Support,Support Lead,Austin,2023-05-15,,Support Lead (80k-110k),104513.27
+E0388,Ava Jones,HR,HR Generalist,San Francisco,2021-07-29,2023-11-18,HR Generalist (55k-80k),73269.08
+E0389,Carter Smith,Marketing,Marketing Analyst,Chicago,2024-10-18,,Marketing Analyst (55k-85k),74247.28
+E0390,Noah Wilson,Support,Support Engineer,Chicago,2022-03-13,,Support Engineer (55k-85k),68202.98
+E0391,Noah Brown,Support,Support Lead,Chicago,2021-06-27,,Support Lead (80k-110k),105798.88
+E0392,Noah Davis,Support,Support Lead,Remote,2023-05-30,,Support Lead (80k-110k),90546.07
+E0393,Chloe Martinez,Support,Support Engineer,Denver,2024-05-15,,Support Engineer (55k-85k),62445.01
+E0394,Logan Martinez,Engineering,Engineering Manager,Denver,2024-05-27,,Engineering Manager (140k-180k),148217.83
+E0395,Chloe Williams,Engineering,Senior Engineer,Chicago,2021-08-19,,Senior Engineer (115k-155k),134795.51
+E0396,Wyatt Wilson,Engineering,Engineering Manager,Remote,2021-09-28,,Engineering Manager (140k-180k),177356.98
+E0397,James Rodriguez,Operations,Operations Analyst,Austin,2021-05-30,2022-01-13,Operations Analyst (55k-85k),77881.78
+E0398,Carter Wilson,Engineering,Software Engineer,San Francisco,2023-03-27,,Software Engineer (75k-115k),112947.2
+E0399,Noah Rodriguez,Support,Support Lead,New York,2024-01-04,,Support Lead (80k-110k),82472.83
+E0400,Noah Moore,Finance,Financial Analyst,Remote,2022-02-21,,Financial Analyst (65k-95k),80339.14

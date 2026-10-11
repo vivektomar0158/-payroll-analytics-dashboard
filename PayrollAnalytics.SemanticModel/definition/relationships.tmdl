@@ -1,0 +1,14 @@
+relationship 1a2b3c
+	fromColumn: PayPeriods.employee_id
+	toColumn: Employees.employee_id
+
+relationship 51f4078c-d89b-4368-8abb-ca5596c08d62
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Employees.hire_date
+	toColumn: LocalDateTable_ac564d70-2f9b-44a1-b613-448750ede67d.Date
+
+relationship 3251f53e-b359-446c-b247-d6af777a5aab
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Employees.termination_date
+	toColumn: LocalDateTable_a4b72770-86ce-47e0-aec7-acc267f774d7.Date
+
